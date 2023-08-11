@@ -1,0 +1,98 @@
+ #content{
+    display: grid; 
+    border-radius: 15%;
+    margin-top: 150px;
+    margin-left: 350px;
+    grid-template-columns: 15% 15% 15%;
+    grid-template-rows: 320px;
+    width: 1500px;
+    padding: 20px;
+    text-align: left;
+    word-spacing: 5px;
+    line-height: 15px;
+
+}
+.one{
+    background-color: hsl(31,77%, 53%);
+    color:white; 
+    font-size: 10px;
+    padding: 65px;
+   
+}
+.two{ 
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    font-size: 10px;
+    padding: 65px;
+}
+.three{ 
+    background-color: hsl(179,100%, 13%);
+    color: white;
+    font-size: 10px;
+    padding: 65px;
+    
+}
+
+.same{ 
+    position: relative;
+    font-size: 15px;
+    margin-top: 60px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 1.2em;
+    padding: 4px;
+    
+}
+
+.img2  {
+    position: absolute;
+    top: 29.6%;
+    left: 45%;
+    width: 3%;
+    height: 5%;
+  }
+
+.img1{
+    position: absolute;
+    top: 29.6%;
+    left: 29%;
+    width: 3%;
+    height: 5%;
+  }
+
+.img3{
+    position: absolute;
+    top: 29.6%;
+    left: 61%;
+    width: 3%;
+    height: 5%;
+  }
+.hover{ 
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    width: 1%;
+    height: 2%;
+    transform: translate(10%, 10%) skew(10deg);
+    
+}
+.hover1{ 
+    position: absolute;
+    top: 69%;
+    left: 33%;
+    width: 1%;
+    height: 2%;
+    transform: translate(10%, 10%) skew(10deg);
+    
+    
+    
+}
+.hover3{ 
+    position: absolute;
+    top: 69%;
+    left: 65%;
+    width: 1%;
+    height: 2%;
+    transform: translate(10%, 10%) skew(10deg);
+    
+}
